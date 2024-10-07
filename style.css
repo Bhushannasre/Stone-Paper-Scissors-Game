@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("walpaper.jpg");
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choice{
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150%;
+}
+
+img{
+height: 120px;
+width: 120px;
+object-fit: cover;
+border-radius: 50%;
+}
+
+.choices{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 5rem;
+}
+
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+    
+}
+
+#user-scope,#comp-score{
+    font-size: 2rem;
+   
+
+}
+.msg-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    margin-top: 5rem;
+    
+    
+
+}
+#msg{
+    padding: 1rem;
+    display: inline;
+    background-color: aqua;
+    border-radius: 1rem ;
+}
